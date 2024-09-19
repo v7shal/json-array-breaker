@@ -12,10 +12,7 @@ public class JsonArrayExample {
         for (int i = 0; i < jsonArray.length(); i++) {
             JSONObject jsonObject = jsonArray.getJSONObject(i);
             String name = jsonObject.getString("name");
-            String city = jsonObject.getString("city");
-            int age = jsonObject.getInt("age");
-
-            System.out.println("Name: " + name + ", City: " + city + ", Age: " + age);
+            System.out.println("Name: " + name );
         }
     }
 }
